@@ -9,14 +9,10 @@
 */
 int main(void)
 {
-	int n;
+	char l
+	for (l = 'a'; l <= 'z'; l++)
+		putchar(l);
+		putchar('\n');
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-
-	char alphabet = "abcdefghijklmnopqrstuvwxyz";
-	char newLine = "\n";
-	putchar(alphabet);
-	putchar(newLine);
 	return (0);
 }

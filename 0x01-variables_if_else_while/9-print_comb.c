@@ -13,8 +13,10 @@ int main(void)
 	{
 		putchar(n);
 		if (n < 58)
+		{
 			putchar(32);
 			putchar(44);
+		}
 	}
 	putchar('\n');
 	return (0);

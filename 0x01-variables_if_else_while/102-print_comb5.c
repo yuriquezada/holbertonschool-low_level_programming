@@ -22,10 +22,10 @@ int main(void)
 				{
 					if ((a >= p) && (b >= q))
 					{
- 						p = a;
+						p = a;
 						q = b + 1;
 					}
- 					putchar(a);
+					putchar(a);
 					putchar(b);
 					putchar(32);
 					putchar(p);
@@ -35,9 +35,9 @@ int main(void)
 						putchar(44);
 						putchar(32);
 					}
-                		}
-            		}
-        	}
+				}
+			}
+		}
 	}
 
 	putchar('\n');

@@ -14,7 +14,7 @@ int main(void)
 
 	for (a = 48; a <= 57; a++)
 	{
-		for (b = 48; b <= 56; b++)
+		for (b = 48; b <= 57; b++)
 		{
 			for (p = 48; p <= 57; p++)
 			{
@@ -23,17 +23,28 @@ int main(void)
 					if ((a >= p) && (b >= q))
 					{
 						p = a;
-						q = b + 1;
+						if (b == 57)
+						{
+							p = a + 1;
+							q = b - 9;
+						}
+						else
+						{
+							q = b + 1;
+						}
 					}
-					putchar(a);
-					putchar(b);
-					putchar(32);
-					putchar(p);
-					putchar(q);
-					if (!((a == 57) && (b == 56)))
+					if(!((a == 57) && (b >= 57)))
 					{
-						putchar(44);
+						putchar(a);
+						putchar(b);
 						putchar(32);
+						putchar(p);
+						putchar(q);
+						if (!((a == 57) && (b == 56)))
+						{
+							putchar(44);
+							putchar(32);
+						}
 					}
 				}
 			}

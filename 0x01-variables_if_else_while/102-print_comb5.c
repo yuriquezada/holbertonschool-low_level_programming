@@ -20,19 +20,24 @@ int main(void)
 			{
 				for (q = 48; q <= 57; q++)
 				{
-					putchar(a);
+					if ((a >= p) && (b >= q))
+					{
+ 						p = a;
+						q = b + 1;
+					}
+ 					putchar(a);
 					putchar(b);
 					putchar(32);
 					putchar(p);
 					putchar(q);
-					if (p < 58)
+					if ((b < 56) && (p < 58))
 					{
 						putchar(44);
 						putchar(32);
 					}
-				}
-			}
-		}
+                		}
+            		}
+        	}
 	}
 
 	putchar('\n');

@@ -14,25 +14,25 @@ int main(void)
 
 	for (a = 48; a <= 57; a++)
 	{
-        for (b = 48; b <= 56; b++)
-        {
-            for (p = 48; p <= 57; p++)
-            {
-                for (q = 48; q <= 57; q++)
-                {
-                    putchar(a);
-                    putchar(b);
-                    putchar(32);
-                    putchar(p);
-                    putchar(q);
-                    if (p < 58)
-                    {
-                        putchar(44);
-                        putchar(32);
-                    }
-                }
-            }
-        }
+		for (b = 48; b <= 56; b++)
+		{
+			for (p = 48; p <= 57; p++)
+			{
+				for (q = 48; q <= 57; q++)
+				{
+					putchar(a);
+					putchar(b);
+					putchar(32);
+					putchar(p);
+					putchar(q);
+					if (p < 58)
+					{
+						putchar(44);
+						putchar(32);
+					}
+				}
+		    }
+		}
 	}
 
 	putchar('\n');

@@ -30,7 +30,7 @@ int main(void)
 					putchar(32);
 					putchar(p);
 					putchar(q);
-					if ((b < 56) && (p < 58))
+					if (!((a == 57) && (b == 56)))
 					{
 						putchar(44);
 						putchar(32);

@@ -20,20 +20,22 @@ int main(void)
 			{
 				for (q = 48; q <= 57; q++)
 				{
-					if ((a >= p) && (b >= q))
+					if ((a >= p) && (b >= q) && (b < 57))
 					{
 						p = a;
-						if (b == 57)
-						{
-							p = a + 1;
-							q = b - 9;
-						}
-						else
-						{
-							q = b + 1;
-						}
+						q = b + 1;
 					}
-					if(!((a == 57) && (b >= 57)))
+					else if ((a >= p) && (b >= q) && (b == 57))
+					{
+						p = a + 1;
+						q = b - 9;
+					}
+					else
+					{
+						p = p;
+						q = q;
+					}
+					if (!((a == 57) && (b >= 57)))
 					{
 						putchar(a);
 						putchar(b);

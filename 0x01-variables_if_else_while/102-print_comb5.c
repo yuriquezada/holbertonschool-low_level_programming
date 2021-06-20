@@ -25,15 +25,10 @@ int main(void)
 						p = a;
 						q = b + 1;
 					}
-					else if ((a >= p) && (b >= q) && (b == 57))
+					if ((a >= p) && (b >= q) && (b == 57))
 					{
 						p = a + 1;
 						q = b - 9;
-					}
-					else
-					{
-						p = p;
-						q = q;
 					}
 					if (!((a == 57) && (b >= 57)))
 					{
@@ -52,6 +47,5 @@ int main(void)
 			}
 		}
 	}
-	putchar('\n');
 	return (0);
 }

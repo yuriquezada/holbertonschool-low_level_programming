@@ -42,17 +42,16 @@ int main(void)
 						putchar(32);
 						putchar(p);
 						putchar(q);
-						if (!((a == 57) && (b == 56)))
-						{
-							putchar(44);
-							putchar(32);
-						}
+					}
+					if (!((a == 57) && (b >= 57)) && !((a == 57) && (b == 56)))
+					{
+						putchar(44);
+						putchar(32);
 					}
 				}
 			}
 		}
 	}
-
 	putchar('\n');
 	return (0);
 }

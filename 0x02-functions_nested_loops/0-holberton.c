@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-	for (i = 0; i < 9; i++)
+	for (int i = 0; i < 9; i++)
 		_putchar("Holberton\n");
 	return (0);
 }

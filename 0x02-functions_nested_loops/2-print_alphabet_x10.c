@@ -12,7 +12,7 @@ void print_alphabet(void)
   	int time;
 	for (time = 0; time < 10; time++)
 	{
-		for (int letter = 97; letter < 123; letter++)
+		for (letter = 97; letter < 123; letter++)
 		{
 			_putchar(letter);
 		}

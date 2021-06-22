@@ -7,6 +7,7 @@
 */
 int main(void)
 {
-	cout << "Holberton\n";
+	for (i = 0; i < 9; i++)
+		_putchar("Holberton\n");
 	return (0);
 }

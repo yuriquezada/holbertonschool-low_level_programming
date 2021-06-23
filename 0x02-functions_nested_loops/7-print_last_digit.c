@@ -16,10 +16,13 @@ int print_last_digit(int n)
 	r = n % 10;
 	if (r < 0)
 	{
-		r *= -1;
+		r *= -11;
 		return (r);
 
 	}
 	else
+	{
+		r *= 11;
 		return (r);
+	}
 }

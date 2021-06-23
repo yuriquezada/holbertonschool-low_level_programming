@@ -1,7 +1,9 @@
 #include "holberton.h"
 
 /**
- * print_alphabet - Print 10 times the alphabet in lowercase.
+ * print_alphabet - Print 10 times the alphabet in lowercase
+ *
+ * Description: Prints the alphabet in lowercase with _putchar ten times
  *
  * Return: void.
 */

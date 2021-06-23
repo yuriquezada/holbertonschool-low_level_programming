@@ -2,8 +2,10 @@
 
 /**
 * print_alphabet - Print the alphabet in lowercase.
+* 
+* Description: Prints the alphabet in lowercase with _putchar ten times
 *
-* Return: void.
+* Return: void
 */
 
 void print_alphabet(void)

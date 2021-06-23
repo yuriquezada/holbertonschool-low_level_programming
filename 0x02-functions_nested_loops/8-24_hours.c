@@ -5,7 +5,7 @@
  *
  * Description: Print every minute of the day of Jack Bauer
  * 
- * Return: 0
+ * Return: void
  */
 
 
@@ -31,5 +31,4 @@ void jack_bauer(void)
 			}      
 		}
 	}
-	return (0);
 }

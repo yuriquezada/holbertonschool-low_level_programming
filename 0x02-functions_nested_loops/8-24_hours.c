@@ -23,12 +23,12 @@ void jack_bauer(void)
 				{
 					_putchar(a);
 					_putchar(b);
-					_putchar(':');
+					_putchar(58);
 					_putchar(p);
 					_putchar(q);
 					_putchar('\n');
 				}
-			}      
+			}
 		}
 	}
 }

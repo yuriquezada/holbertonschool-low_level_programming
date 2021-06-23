@@ -21,6 +21,8 @@ void jack_bauer(void)
 			{
 				for (q = '0'; q <= '9'; q++)
 				{
+					if (a >= '2' && b >= '4')
+					break;
 					_putchar(a);
 					_putchar(b);
 					_putchar(58);

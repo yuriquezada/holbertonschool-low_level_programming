@@ -3,7 +3,7 @@
 /**
  * _islower - Check for lowercase character
  *
- * Description: Check for lowercase character.
+ * @c: character to check
  *
  * Return: 0 or 1
 */

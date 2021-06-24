@@ -9,7 +9,6 @@
  * Return: The sum of the two parameters
  */
 
-
 int add(int num1, int num2)
 {
 	int result, tens, ones;

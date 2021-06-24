@@ -16,7 +16,7 @@ int add(int num1, int num2)
 
 	result = num1 + num2;
 	tens = result / 10;
-	ones = number % 10;
+	ones = result % 10;
 	_putchar(tens + 48);
 	_putchar(ones + 48);
 	_putchar('\n');

@@ -35,7 +35,7 @@ void times_table(void)
 				_putchar(ones + 48);
 			}
 			if (column != 9)
-				putchar(44);
+				_putchar(44);
 		}
 		_putchar('\n');
 	}

@@ -21,5 +21,5 @@ int add(int num1, int num2)
 	_putchar(ones + 48);
 	_putchar('\n');
 	
-	return(0)
+	return(0);
 }

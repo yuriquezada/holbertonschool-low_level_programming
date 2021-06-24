@@ -6,18 +6,14 @@
  * @num1: First operand
  * @num2: Second operand
  *
- * Return: The sum of the two parameters
+ * Return: result
  */
-
 
 int add(int num1, int num2)
 {
-	int result, tens, ones;
+	int result;
 
 	result = num1 + num2;
-	tens = result / 10;
-	ones = number % 10;
-	_putchar(tens + 48);
-	_putchar(ones + 48);
-	_putchar('\n');
+
+	return (result);
 }

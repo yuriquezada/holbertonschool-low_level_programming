@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * jack_bauer - Prints the 9 times table, starting with 0
+ * times_table - Prints the 9 times table, starting with 0
  *
  * Description: Prints the 9 times table, starting with 0
  *
@@ -34,6 +34,8 @@ void times_table(void)
 				_putchar(tens + 48);
 				_putchar(ones + 48);
 			}
+			if (column != 9);
+			putchar(44);
 		}
 		_putchar('\n');
 	}

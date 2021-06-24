@@ -21,11 +21,11 @@ void jack_bauer(void)
 		{
 			m1 = m / 10;
 			m2 = m % 10;
-			_putchar(h1+48);
-			_putchar(h2+48);
+			_putchar(h1 + 48);
+			_putchar(h2 + 48);
 			_putchar(':');
-			_putchar(m1+48);
-			_putchar(m2+48);
+			_putchar(m1 + 48);
+			_putchar(m2 + 48);
 			_putchar('\n');
 		}
 	}

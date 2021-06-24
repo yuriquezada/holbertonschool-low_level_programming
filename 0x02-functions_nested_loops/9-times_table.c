@@ -32,7 +32,7 @@ void times_table(void)
 			{
 				_putchar(32);
 				_putchar(tens + 48);
-				_putchar(ones + 48)}
+				_putchar(ones + 48);
 			}
 		}
 		_putchar('\n');

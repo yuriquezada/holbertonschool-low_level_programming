@@ -6,7 +6,7 @@
  * @num1: First operand
  * @num2: Second operand
  *
- * Return: The sum of the two parameters
+ * Return: 0
  */
 
 int add(int num1, int num2)

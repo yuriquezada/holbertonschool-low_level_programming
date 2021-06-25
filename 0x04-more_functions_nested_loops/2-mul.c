@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
  * mul - Multiplie two integers
@@ -14,5 +15,6 @@ int mul(int a, int b)
 	int product;
 
 	product = a * b;
+
 	return product;
 }

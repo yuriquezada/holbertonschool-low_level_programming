@@ -3,7 +3,7 @@
 /**
  * fizz_buzz - Print that prints the numbers from 1 to 100
  *
- * Return: void
+ * Return: 0
 */
 
 int main(void)

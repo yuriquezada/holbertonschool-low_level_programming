@@ -6,7 +6,7 @@
  * @a: First operand
  * @b: Second operand
  *
- * Return: mul
+ * Return: product
 */
 
 int mul(int a, int b)

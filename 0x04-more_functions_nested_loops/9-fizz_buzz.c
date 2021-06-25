@@ -6,7 +6,7 @@
  * Return: void
 */
 
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -24,4 +24,5 @@ void fizz_buzz(void)
 	}
 	printf("Buzz");
 	printf("\n");
+	return (0);
 }

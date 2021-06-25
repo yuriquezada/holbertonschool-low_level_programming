@@ -1,4 +1,3 @@
-#include "holberton.h"
 #include <stdio.h>
 
 /**
@@ -11,7 +10,7 @@ void fizz_buzz(void)
 {
 	int i;
 
-	for (i = 1; i <= 100; i++)
+	for (i = 1; i < 100; i++)
 	{
 		if (i % 15 == 0)
 			printf("FizzBuzz");
@@ -21,7 +20,8 @@ void fizz_buzz(void)
 			printf("Fizz");
 		else
 			printf("%d",i);
-		_putchar(' ');
+		printf(' ');
 	}
-	_putchar('\n');
+	printf("Buzz");
+	printf("\n");
 }

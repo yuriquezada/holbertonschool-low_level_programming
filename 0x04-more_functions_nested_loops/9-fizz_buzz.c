@@ -2,7 +2,7 @@
 
 /**
  * main - Print that prints the numbers from 1 to 100
- * @void: no argument
+ *
  * Return: 0
 */
 

@@ -5,6 +5,7 @@
  * @n: Number of times the character _
  * Return: void
 */
+
 void print_line(int n);
 {
 	char i;

@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - Draw a diagonal line on the terminal
- * @n: Number of times the character _
+ * @n: Number of times the character '_'
  * Return: void
 */
 

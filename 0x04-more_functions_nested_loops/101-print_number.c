@@ -5,7 +5,7 @@
 /**
  * print_number - Prints an integer
  * @n: Integer to print
- * Return: 0
+ * Return: void
 */
 
 void print_number(int n)

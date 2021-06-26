@@ -1,25 +1,28 @@
-#include "holberton.h"
 #include <stdio.h>
 
 /**
- * fizz_buzz - Print that prints the numbers from 1 to 100
+ * main - Print that prints the numbers from 1 to 100
  *
- * Return: void
+ * Return: 0
 */
 
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
-	for (i = 1; i <= 100; i++)
+	for (i = 1; i < 100; i++)
 	{
 		if (i % 15 == 0)
-			printf("Fizz");
+			printf("FizzBuzz");
 		else if (i % 5 == 0)
 			printf("Buzz");
 		else if (i % 3 == 0)
-			printf("FizzBuzz");
+			printf("Fizz");
 		else
-			_putchar(i);
+			printf("%d", i);
+		printf(" ");
 	}
+	printf("Buzz");
+	printf("\n");
+	return (0);
 }

@@ -22,8 +22,7 @@ void print_number(int n)
 	while(power >= 0)
 	{
 		digit = (int)(n / pow(10, power)) % 10;
-		putchar('0' + digit);
+		_putchar('0' + digit);
 		power--;
 	}
-	return (0);
 }

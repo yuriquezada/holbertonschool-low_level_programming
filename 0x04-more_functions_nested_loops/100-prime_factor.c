@@ -16,7 +16,7 @@ int main(void)
 			number /= i;
 			i--;
 		}
-	printf(number);
+	printf("%d", number);
 	printf("\n");
 	return (0);
 }

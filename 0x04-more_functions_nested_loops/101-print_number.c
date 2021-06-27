@@ -23,7 +23,7 @@ void print_number(int n)
 	{
 		digit = (n / power10) % 10;
 		power10 /= 10;
-		putchar('0' + digit);
+		_putchar('0' + digit);
 	}
 	_putchar('\n');
 }

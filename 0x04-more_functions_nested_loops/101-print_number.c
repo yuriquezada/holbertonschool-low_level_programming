@@ -24,5 +24,4 @@ void print_number(int n)
 		power10 /= 10;
 		_putchar('0' + digit);
 	}
-	_putchar('\n');
 }

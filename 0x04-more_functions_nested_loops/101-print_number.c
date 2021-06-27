@@ -9,7 +9,7 @@
 
 void print_number(int n)
 {
-	long int power10 = 1, digit;
+	int power10 = 1, digit;
 
 	if (n < 0)
 	{

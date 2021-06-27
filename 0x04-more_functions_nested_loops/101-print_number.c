@@ -5,7 +5,7 @@
 /**
  * print_number - Prints an integer
  * @n: Integer to print
- * Return: 0
+ * Return: void
 */
 
 void print_number(int n)
@@ -25,5 +25,4 @@ void print_number(int n)
 		power10 /= 10;
 		putchar('0' + digit);
 	}
-	return (0);
 }

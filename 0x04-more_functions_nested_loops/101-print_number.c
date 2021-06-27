@@ -1,6 +1,5 @@
 #include "holberton.h"
 #include <stdio.h>
-#include <math.h>
 
 /**
  * print_number - Prints an integer
@@ -17,7 +16,7 @@ void print_number(int n)
 		n *= -1;
 		_putchar('-');
 	}
-	while(power10 * 10 <= number)
+	while(power10 * 10 <= n)
 		power10 *= 10;
 	while(power10 > 0)
 	{

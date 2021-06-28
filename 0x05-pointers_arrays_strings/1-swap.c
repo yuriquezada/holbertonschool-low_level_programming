@@ -6,7 +6,7 @@
  * @b: Second integer
  * Return: void
 */
-void reset_to_98(int *a, *b)
+void reset_to_98(int *a, int *b)
 {
 	*a = b;
 	*b = a;

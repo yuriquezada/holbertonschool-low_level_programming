@@ -8,8 +8,7 @@
 */
 void swap_int(int *a, int *b)
 {
-	int *fistPointer = a;
-	int *secondPointer = b;
-	*a = *secondPointer;
-	*b = *fistPointer;
+	int *Pointer = b;
+	*a = *Pointer;
+	*b = *a;
 }

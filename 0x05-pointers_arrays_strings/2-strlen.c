@@ -5,12 +5,13 @@
  *
  * @s: Pointer to a string
  *
- * Return: 0
+ * Return: stringLength
 */
 
 int _strlen(char *s)
 {
 	int stringLength;
+
 	while (*s != '\0')
 	{
 		s++;

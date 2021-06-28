@@ -6,8 +6,9 @@
  * @b: Second integer
  * Return: void
 */
-void reset_to_98(int *a, *b)
+void swap_int(int *a, int *b)
 {
-	*a = b;
-	*b = a;
+	int newPointer = *a;
+	*a = *b;
+	*b = newPointer;
 }

@@ -2,7 +2,7 @@
 
 /**
  * _puts - Prints a string followed by a new line
- * @str: First integer
+ * @str: String
  * Return: void
 */
 void _puts(char *str)

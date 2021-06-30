@@ -23,7 +23,7 @@ void puts_half(char *str)
 		i = (stringLength + 1) / 2;
 	else
 		i = stringLength / 2;
-	for (; i < stringLength; i ++)
+	for (; i < stringLength; i++)
 		printf("%c", str[i]);
 	printf("\n");
 }

@@ -11,17 +11,19 @@
 
 void rev_string(char *s)
 {
-	int stringLength = 0, i;
+	int stringLength = 0, len = 0, i;
+	char *newPointer = s, letter;
 
-	while (*s != '\0')
+	while (*newPointer != '\0')
 	{
 		stringLength++;
-		s++;
+		newPointer++;
 	}
-	for (i = stringLength + 1; i > 0; i--)
+	len = stringLength - 1;
+	for (i = 0 ; i < (len / 2) + 1; i++)
 	{
-		printf("%c", *s);
-		s--;
+		letter = s[i];
+		s[i] = s[len - i];
+		s[len - i] = letter;
 	}
-	printf("\n");
 }

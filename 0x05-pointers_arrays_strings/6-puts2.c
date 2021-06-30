@@ -11,12 +11,15 @@
 
 void puts2(char *str)
 {
-	int stringLength = 0;
+	int stringLength = 0, i;
+	char *newPointer = str;	
 
-	while (str[stringLength] != '\0')
+	while (*newPointer != '\0')
 	{
-		printf("%c", str[stringLength]);
-		stringLength += 2;
+		stringLength++;
+		newPointer++;
 	}
+	for (i = 0; i < stringLength; i += 2)
+		printf("%c", str[i]);
 	printf("\n");
 }

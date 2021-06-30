@@ -14,15 +14,13 @@ void print_rev(char *s)
 	int stringLength = 0;
 	char *newPointer = s;
 
-	while (*s != '\0')
-	{
+	while (s[stringLength] != '\0')
 		stringLength++;
-		s++;
-	}
-	while (s >= newPointer)
+	stringLength--;
+	while (stringLength >= 0)
 	{
-		printf("%c", *s);
-		s--;
+		printf("%c", s[stringLength]);
+		stringLength--;
 	}
 	printf("\n");
 }

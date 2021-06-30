@@ -12,7 +12,6 @@
 void print_rev(char *s)
 {
 	int stringLength = 0;
-	char *newPointer = s;
 
 	while (s[stringLength] != '\0')
 		stringLength++;

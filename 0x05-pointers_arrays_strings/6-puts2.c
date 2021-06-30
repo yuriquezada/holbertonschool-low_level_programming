@@ -12,7 +12,7 @@
 void puts2(char *str)
 {
 	int stringLength = 0, i;
-	char *newPointer = str;	
+	char *newPointer = str;
 
 	while (*newPointer != '\0')
 	{

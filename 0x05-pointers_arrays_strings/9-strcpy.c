@@ -6,7 +6,7 @@
  * @dest: Buffer pointed to by dest
  * @src: String pointed to by src
  *
- * Return: void
+ * Return: dest
 */
 
 char *_strcpy(char *dest, char *src)

@@ -21,5 +21,6 @@ char *_strcpy(char *dest, char *src)
 	}
 	for (i = 0; i < stringLength; i++)
 		dest[i] = src[i];
+	dest[stringLength] = '\0';
 	return (dest);
 }

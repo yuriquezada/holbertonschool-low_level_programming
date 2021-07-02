@@ -14,6 +14,7 @@ int _strcmp(char *s1, char *s2)
 {
 	int lenS1 = 0, lenS2 = 0, i;
 	int result;
+
 	while (*(s1 + lenS1) != '\0')
 		lenS1++;
 	while (*(s2 + lenS2) != '\0')

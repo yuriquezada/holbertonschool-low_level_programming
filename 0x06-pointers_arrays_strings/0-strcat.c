@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - concatenates two strings
+ * _strcat - concatenates two strings
  *
  * @dest: string to the dest
  * @src: string to append

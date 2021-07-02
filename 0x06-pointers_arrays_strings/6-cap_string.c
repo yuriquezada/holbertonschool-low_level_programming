@@ -9,7 +9,7 @@
  * Return: a
  */
 
-char *cap_string(char *)
+char *cap_string(char *a)
 {
 	char *a = str;
 	int i, len =0;

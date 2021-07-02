@@ -7,7 +7,7 @@
  * @a: array of integers
  * @n: number of elements of the array
  *
- * Return: result
+ * Return: void
  */
 
 void reverse_array(int *a, int n);
@@ -21,5 +21,4 @@ void reverse_array(int *a, int n);
 		a[i] = a[n - i];
 		a[n - i] = number;
 	}
-	return (0);
 }

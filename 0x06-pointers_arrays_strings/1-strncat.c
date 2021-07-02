@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strncat -  Is similar to the _strcat function
+ * _strncat - Is similar to the _strcat function
  *
  * @dest: string to the dest
  * @src: string to append

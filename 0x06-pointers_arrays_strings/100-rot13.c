@@ -19,7 +19,7 @@ char *rot13(char *a)
 	{
 		if ((a[i] >= 'N' && a[i] <= 'Z') || (a[i] >= 'n' && a[i] <= 'z'))
 			a[i] -= 13;
-		else if ((a[i] >= 'A' && a[i] <= 'M') || (a[i] >= 'a' && a[i] <= 'z'))
+		else if ((a[i] >= 'A' && a[i] <= 'M') || (a[i] >= 'a' && a[i] <= 'm'))
 			a[i] += 13;
 		else
 			a[i] = a[i];

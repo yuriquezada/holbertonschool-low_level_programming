@@ -24,5 +24,6 @@ char *rot13(char *a)
 		else
 			a[i] = a[i];
 	}
+	a[i] = '\0';
 	return (a);
 }

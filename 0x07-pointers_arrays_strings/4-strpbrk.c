@@ -4,7 +4,7 @@
  *@s: substring
  *@accept: initial string
  *
- *Return: number
+ *Return: &s[i] or NULL
  */
 
 char *_strpbrk(char *s, char *accept)

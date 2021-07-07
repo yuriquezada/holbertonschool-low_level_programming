@@ -21,6 +21,7 @@ char *_strpbrk(char *s, char *accept)
 		{
 			number++;
 			return (&s[i]);
+			break;
 		}
 	}
 	if (number == 0)

@@ -1,10 +1,11 @@
 #include "holberton.h"
 
 /**
- * sqrt_check - Return the square root of a number with iterators
+ * _increase - Return the square root of a number with iterators
  * @i: root to check of the number
  * @n: number
  *
+ * Description: This is a second function created.
  * Return: -1 or root of n
  */
 int _increase(int i, int n)
@@ -17,7 +18,7 @@ int _increase(int i, int n)
 }
 
 /**
- * _increase - Return the square root of a number
+ * _sqrt_recursion - Return the square root of a number
  * @n: Number
  *
  * Return: Natural square

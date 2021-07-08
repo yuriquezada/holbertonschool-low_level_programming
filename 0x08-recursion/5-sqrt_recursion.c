@@ -5,7 +5,7 @@
  * @i: root to check of the number
  * @n: number
  *
- * Return: -1 or sqrt of c
+ * Return: -1 or root of n
  */
 
 int _increase(int i, int n)

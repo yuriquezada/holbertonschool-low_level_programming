@@ -7,7 +7,6 @@
  *
  * Return: -1 or root of n
  */
-
 int _increase(int i, int n)
 {
 	if (i * i == n)
@@ -24,7 +23,6 @@ int _increase(int i, int n)
  *
  * Return: Natural square
  */
-
 int _sqrt_recursion(int n)
 {
 	if (n < 0)

@@ -18,7 +18,6 @@ int _increase(int i, int n)
 
 /**
  * _increase - Return the square root of a number
- *
  * @n: Number
  *
  * Return: Natural square

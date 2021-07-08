@@ -18,9 +18,9 @@ int _increase(int i, int n)
 	if (n % 2 == 0)
 		return (0);
 	if ((n % i == 0) && (n != i))
-        return (0);
+		return (0);
 	if ((n % i == 0) && (n == i))
-        return (1);
+		return (1);
 	return (_increase(i + 1, n));
 }
 

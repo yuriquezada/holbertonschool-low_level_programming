@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
- * _increase -  Return the square root of a number
+ * sqrt_check - Return the square root of a number with iterators
+ * @i: root to check of the number
+ * @n: number
  *
- * @n: Number
- *
- * Return: Natural square
+ * Return: -1 or sqrt of c
  */
 
 int _increase(int i, int n)
@@ -16,6 +16,14 @@ int _increase(int i, int n)
 		return (-1);
 	_increase(i + 1, n);
 }
+
+/**
+ * _increase -  Return the square root of a number
+ *
+ * @n: Number
+ *
+ * Return: Natural square
+ */
 
 int _sqrt_recursion(int n)
 {

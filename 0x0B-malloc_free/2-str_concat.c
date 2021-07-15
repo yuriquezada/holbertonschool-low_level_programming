@@ -20,10 +20,11 @@ char *str_concat(char *s1, char *s2)
 		len1++;
 	for (i = 0; s2[i] != '\0'; i++)
 		len2++;
-	p = malloc(sizeof(char) * (len1 + len2 - 1));
+	p = (char *)malloc(sizeof(char) * (len1 + len2 - 1));
 	for (i = 0; i < len1; i++)
 		p[i] = s1[i];
 	for (i = 0; i < len2; i++)
 		p[i + len1 - 1] = s2[i];
+	p[len1 + len2 - 2] = '\0';
 	return (p);
 }

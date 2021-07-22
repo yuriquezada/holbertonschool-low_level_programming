@@ -19,7 +19,10 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	{
 		if (i && separator)
 			printf("%s", separator);
-		printf("%s", va_arg(ap, char *));
+		if (va_arg(ap, char *))
+			printf("%s", va_arg(ap, char *));
+		else
+			printf("nil");
 	}
 	printf("\n");
 	va_end(ap);

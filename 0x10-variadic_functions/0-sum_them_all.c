@@ -2,7 +2,7 @@
 #include <stdarg.h>
 
 /**
- * main - check the code for Holberton School students.
+ * sum_them_all - check the code for Holberton School students.
  * @n: number of arguments to add
  * Return: sum or 0
  */

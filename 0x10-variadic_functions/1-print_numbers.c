@@ -4,7 +4,7 @@
 
 /**
  * print_numbers - print numbers, followed by a new line
- * @n: string to be printed between numbers
+ * @separator: string to be printed between numbers
  * @n: number of arguments to concatenate
  * Return: sum or 0
  */

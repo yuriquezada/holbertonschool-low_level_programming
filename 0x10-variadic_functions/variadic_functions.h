@@ -3,7 +3,7 @@
 
 #include <stdarg.h>
 /**
- * struct print - print type with corresponding print function
+ * struct print - print type and print function
  * @char_to_compare: print type
  * @f: print function
  */

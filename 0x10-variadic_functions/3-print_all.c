@@ -74,12 +74,12 @@ void print_all(const char * const format, ...)
 	while (format && format[i])
 	{
 		j = 0;
-		while (alternatives[j].c != NULL)
+		while (alternatives[j].char_to_compare != NULL)
 		{
-			if (*(alternatives[j].c) == format[i])
+			if (*(alternatives[j].char_to_compare) == format[i])
 			{
 				printf("%s", separator);
-				p[j].f(type_data);
+				alternatives[j].f(type_data);
 				separator = ", ";
 				break;
 			}

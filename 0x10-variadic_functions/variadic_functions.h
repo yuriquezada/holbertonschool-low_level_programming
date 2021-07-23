@@ -4,7 +4,7 @@
 #include <stdarg.h>
 /**
  * struct print - print type with corresponding print function
- * @c: print type
+ * @char_to_compare: print type
  * @f: print function
  */
 typedef struct print

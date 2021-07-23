@@ -59,7 +59,7 @@ void print_f(va_list f)
 void print_all(const char * const format, ...)
 {
 	unsigned int i, j;
-	print_based_data_type alternatives[] = {
+	print_t alternatives[] = {
 		{"c", print_c},
 		{"s", print_s},
 		{"i", print_i},

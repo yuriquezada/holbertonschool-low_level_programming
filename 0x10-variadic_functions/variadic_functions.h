@@ -10,7 +10,7 @@
 typedef struct print
 {
 	char *char_to_compare;
-	void (*f)(va_list);
+	void (*f)(va_list var);
 } print_t;
 
 int _putchar(char);

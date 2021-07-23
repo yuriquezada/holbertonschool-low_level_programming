@@ -74,7 +74,7 @@ void print_all(const char * const format, ...)
 	while (format && format[i])
 	{
 		j = 0;
-		while (alternatives[j].char_to_compare != NULL)
+		while (alternatives[j].char_to_compare)
 		{
 			if (*(alternatives[j].char_to_compare) == format[i])
 			{

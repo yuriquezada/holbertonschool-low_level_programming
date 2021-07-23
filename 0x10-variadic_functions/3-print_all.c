@@ -52,7 +52,7 @@ void print_f(va_list f)
 
 /**
  * prin_all - print anything
- * @format: string containing the data types of the arguments
+ * @format: string containing the data types
  *
  * Return: void
  */

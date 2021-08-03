@@ -10,6 +10,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
+ * Holberton School
  */
 typedef struct list_s
 {

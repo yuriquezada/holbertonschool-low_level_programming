@@ -4,12 +4,12 @@
 /**
  * rot13 - Encodes a string using rot13
  *
- * @a: array of char
+ * @str: array of char
  *
- * Return: a
+ * Return: str
  */
 
-char *rot13(char *a)
+char *rot13(char *str)
 {
 	char *input, *output;
 	int count, count2;

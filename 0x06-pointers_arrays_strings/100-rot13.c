@@ -11,19 +11,25 @@
 
 char *rot13(char *a)
 {
-	int lenS = 0, i;
+	char *input, *output;
+	int count, count2;
 
-	while (*(a + lenS) != '\0')
-		lenS++;
-	for (i = 0; i < lenS; i++)	
+	input = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	output = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	count = 0;
+	while (str[count] != '\0')
 	{
-		if ((a[i] >= 'N' && a[i] <= 'Z') || (a[i] >= 'n' && a[i] <= 'z'))
-			a[i] -= 13;
-		else if ((a[i] >= 'A' && a[i] <= 'M') || (a[i] >= 'a' && a[i] <= 'm'))
-			a[i] += 13;
-		else
-			a[i] = a[i];
+		count2 = 0;
+		while (input[count2] != '\0')
+		{
+			if (str[count] == input[count2])
+			{
+				str[count] = output[count2];
+				break;
+			}
+			count2++;
+		}
+		count++;
 	}
-	a[i] = '\0';
-	return (a);
+	return (str);
 }

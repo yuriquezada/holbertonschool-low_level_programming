@@ -4,31 +4,26 @@
 /**
  * leet - Encode a string into 1337
  *
- * @a: array of char
+ * @n: array of char
  *
- * Return: a
+ * Return: n
  */
 
-char *leet(char *a)
+char *leet(char *n)
 {
-	int i, len =0;
+	int i, j;
+	char s1[] = "aAeEoOtTlL";
+	char s2[] = "4433007711";
 
-	while (*(a + len) != '\0')
-		len++;
-	for (i = 0; i < len; i++)
+	for (i = 0; n[i] != '\0'; i++)
 	{
-		if (a[i] == 'a' || a[i] == 'A')
-			a[i] = '4';
-		else if (a[i] == 'e' || a[i] == 'E')
-			a[i] = '3';
-		else if (a[i] == 'o' || a[i] == 'O')
-			a[i] = '0';
-		else if (a[i] == 't' || a[i] == 'T')
-			a[i] = '7';
-		else if (a[i] == 'l' || a[i] == 'L')
-			a[i] = '1';
-		else
-			a[i] = a[i];
+		for (j = 0; j < 10; j++)
+		{
+			if (n[i] == s1[j])
+			{
+				n[i] = s2[j];
+			}
+		}
 	}
-	return (a);
+	return (n);
 }

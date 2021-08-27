@@ -4,12 +4,12 @@
 /**
  * cap_string - Capitalizes all words of a string
  *
- * @a: array of char
+ * @n: array of char
  *
- * Return: a
+ * Return: n
  */
 
-char *cap_string(char *a)
+char *cap_string(char *n)
 {
 	int i;
 
